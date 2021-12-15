@@ -19,6 +19,3 @@ def current_datetime():
     if datetime_now.hour > 18:
         date_return['message'] = 'Boa noite!'
     return date_return
-
-print(home())
-print(current_datetime())
